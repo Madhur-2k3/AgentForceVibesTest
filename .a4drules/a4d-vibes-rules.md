@@ -128,6 +128,7 @@ Error: LWC1060: Template expression doesn't allow ConditionalExpression
 get itemLabel() {
     return this.count === 1 ? 'item' : 'items';
 }
+
 Rule 14: LWC Template – No Binary Expressions
 Error: LWC1060: Template expression doesn't allow BinaryExpression
 
@@ -139,6 +140,10 @@ Error: LWC1060: Template expression doesn't allow BinaryExpression
 get rowNumber() {
     return this.index + 1;
 }
+
+
+
+
 Rule 16: LWC Decorators – Must Import from lwc
 Error: LWC1102: Invalid decorator usage
 

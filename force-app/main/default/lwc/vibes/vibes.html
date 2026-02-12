@@ -1,0 +1,18 @@
+<template>
+    <lightning-card title="Account Name Test">
+        <template if:true={accountName}>
+            <p class="slds-p-around_small">{displayText}</p>
+        </template>
+
+        <template if:true={error}>
+            <p class="slds-text-color_error slds-p-around_small">
+                Error occurred. Check console.
+                {errorMessage}
+            </p>
+        </template>
+        <!-- <c-demo-lwc config={demoConfig}></c-demo-lwc> -->
+        <p>
+            {taskLabel}
+        </p>
+    </lightning-card>
+</template>
