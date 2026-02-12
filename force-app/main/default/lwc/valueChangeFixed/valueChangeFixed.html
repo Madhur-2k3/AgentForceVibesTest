@@ -1,0 +1,8 @@
+<template>
+    <lightning-card title="ValueChange Fixed Editor">
+        <div class="slds-p-around_medium">
+            <lightning-input label="Value" value={value} onchange={handleInput}></lightning-input>
+            <p class="slds-text-color_weak">This component dispatches the `valuechange` event with `{ value }` in `detail`.</p>
+        </div>
+    </lightning-card>
+</template>

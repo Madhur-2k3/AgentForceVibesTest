@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Decorator Faulty 2">
+        <div class="slds-p-around_medium">
+            <p>Record: {recordId}</p>
+            <template if:true={contacts}>
+                <template for:each={contacts} for:item="c">
+                    <p key={c.Id}>{c.Name}</p>
+                </template>
+            </template>
+        </div>
+    </lightning-card>
+</template>

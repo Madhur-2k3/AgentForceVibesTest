@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title="Ternary Operator Faulty">
+        <div class="slds-p-around_medium">
+            <!-- Move conditional label to a getter to avoid LWC1060 -->
+            <p>Item label: {itemLabel}</p>
+
+            <lightning-input label="Count" type="number" value={count} onchange={handleChange}></lightning-input>
+        </div>
+    </lightning-card>
+</template>

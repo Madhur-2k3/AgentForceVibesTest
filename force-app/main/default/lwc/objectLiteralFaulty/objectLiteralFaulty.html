@@ -1,0 +1,9 @@
+<template>
+    <lightning-card title="Object Literal Faulty">
+        <div class="slds-p-around_medium">
+            <!-- LWC templates do not allow inline object literals in attributes -->
+            <c-child-component headers={headers}></c-child-component>
+            <c-child-component config={config}></c-child-component>
+        </div>
+    </lightning-card>
+</template>

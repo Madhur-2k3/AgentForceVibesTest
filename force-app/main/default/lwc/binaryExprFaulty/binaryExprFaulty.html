@@ -1,0 +1,9 @@
+<template>
+    <lightning-card title="Binary Expression Faulty">
+        <div class="slds-p-around_medium">
+            <!-- Move binary expression to a getter to avoid template inline expressions -->
+            <p>Row {rowNumber}</p>
+            <lightning-input label="Index" value={index} onchange={handleIndexChange}></lightning-input>
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Missing Class Permissions</label>
+    <!-- Grant access to the faulty class -->
+    <classAccess>
+        <apexClass>AgentforceRule25Faulty</apexClass>
+        <enabled>true</enabled>
+    </classAccess>
+</PermissionSet>
