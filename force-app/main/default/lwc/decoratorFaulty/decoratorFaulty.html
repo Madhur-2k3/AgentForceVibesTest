@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title="Decorator Faulty">
+        <div class="slds-p-around_medium">
+            <p>Value: {value}</p>
+            <template for:each={items} for:item="it">
+                <p key={it}>{it}</p>
+            </template>
+        </div>
+    </lightning-card>
+</template>
